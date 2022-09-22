@@ -1,0 +1,9 @@
+[tool.black]
+force-exclude = '''
+^.*/(
+
+)$
+'''
+
+[tool.isort]
+profile = "black"

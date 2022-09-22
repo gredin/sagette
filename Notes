@@ -1,0 +1,16 @@
+si les flèches coudées ne sont utilisées que sur les bords haut et gauche,
+alors les contraintes de disposition des indices se réduisent à la seule interdiction de cette configuration :
+
+   [INDICE] [lettre] [indice]
+   [lettre]
+   [indice]
+
+   (cette contrainte ne concerne pas les indices des bords haut et gauche)
+
+si ce cas est évité, alors on peut avoir :
+- un et un seul indice pour chaque mot
+- au moins un mot lié à chaque indice
+sachant que :
+- tout mot horizontal a son indice à sa gauche
+- tout mot vertical a son indice au dessus
+
