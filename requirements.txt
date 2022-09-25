@@ -1,5 +1,8 @@
-black==22.3.0
-isort==5.10.1
-svgwrite==1.4.3
-lexpy==1.0.0
 bitarray==2.6.0
+black==22.3.0
+CairoSVG==2.5.2
+isort==5.10.1
+matplotlib==3.6.0
+Pillow==9.2.0
+svgwrite==1.4.3
+git+https://github.com/gredin/lexpy.git@main

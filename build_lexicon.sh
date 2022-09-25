@@ -11,3 +11,8 @@ cat "${SOURCE_FILE}" | sed -nr '/^.{7}$/p' | shuf -n 600 >> ${OUTPUT_FILE}
 cat "${SOURCE_FILE}" | sed -nr '/^.{8}$/p' | shuf -n 700 >> ${OUTPUT_FILE}
 cat "${SOURCE_FILE}" | sed -nr '/^.{9}$/p' | shuf -n 800 >> ${OUTPUT_FILE}
 cat "${SOURCE_FILE}" | sed -nr '/^.{10}$/p' | shuf -n 900 >> ${OUTPUT_FILE}
+cat "${SOURCE_FILE}" | sed -nr '/^.{11}$/p' | shuf -n 1000 >> ${OUTPUT_FILE}
+cat "${SOURCE_FILE}" | sed -nr '/^.{12}$/p' | shuf -n 1000 >> ${OUTPUT_FILE}
+cat "${SOURCE_FILE}" | sed -nr '/^.{13}$/p' | shuf -n 1000 >> ${OUTPUT_FILE}
+cat "${SOURCE_FILE}" | sed -nr '/^.{14}$/p' | shuf -n 1000 >> ${OUTPUT_FILE}
+cat "${SOURCE_FILE}" | sed -nr '/^.{15}$/p' | shuf -n 1000 >> ${OUTPUT_FILE}
